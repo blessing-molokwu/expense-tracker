@@ -1,0 +1,89 @@
+body>h1 {
+    color: rgb(4, 71, 255);
+    text-align: center;
+}
+
+#container {
+    height: 40%;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    text-align: center;
+}
+
+#container>div {
+    padding: 2%;
+}
+
+p {
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#container>div>form>select {
+    width: 90%;
+    height: 10%;
+    margin-top: 0px;
+}
+
+#container>div>form>input {
+    width: 90%;
+    height: 10%;
+    margin-top: 0px;
+}
+
+button {
+    margin-top: 10%;
+    width: 90%;
+    height: 12%;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(73, 73, 226);
+}
+
+#cards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#cards>div {
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    width: 240px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+#cards>div>:first-child {
+    color: blue;
+    font-size: 25px;
+    margin: 5%;
+    margin-bottom: 0px;
+}
+
+#cards>div>:nth-child(2) {
+    color: green;
+}
+
+#cards>div>:nth-child(3) {
+    color: red;
+}
+
+#cards>div>:last-child {
+    color: green;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
